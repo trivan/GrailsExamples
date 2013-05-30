@@ -1,0 +1,116 @@
+Testsuite: test.trip.planer2.FlightControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 1.268 sec
+------------- Standard Output ---------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+
+Testcase: testUpdate took 0.343 sec
+	FAILED
+Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testUpdate(FlightControllerTests.groovy:100)
+
+Testcase: testShow took 0.064 sec
+	FAILED
+Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testShow(FlightControllerTests.groovy:62)
+
+Testcase: testDelete took 0.076 sec
+	FAILED
+Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testDelete(FlightControllerTests.groovy:144)
+
+Testcase: testEdit took 0.066 sec
+	FAILED
+Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testEdit(FlightControllerTests.groovy:80)
+
+Testcase: testList took 0.06 sec
+Testcase: testCreate took 0.049 sec
+Testcase: testIndex took 0.046 sec
+Testcase: testSave took 0.054 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/flight/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@20c22f4d
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/flight/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@20c22f4d
+
+	at test.trip.planer2.FlightControllerTests.testSave(FlightControllerTests.groovy:48)
+

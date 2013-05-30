@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="TRIVAN" name="test.trip.planer2.UserTests" tests="1" time="0.065" timestamp="2013-05-27T05:01:03">
+  <properties />
+  <testcase classname="test.trip.planer2.UserTests" name="testSomething" time="0.063" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

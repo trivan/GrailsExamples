@@ -1,0 +1,17 @@
+Testsuite: test.trip.planer2.DateTagLibTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.18 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.02 sec
+	Caused an ERROR
+Cannot add Domain class [class test.trip.planer2.UnderscoreCodec]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class test.trip.planer2.UnderscoreCodec]. It is not a Domain!
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.registerGrailsDomainClass(DomainClassUnitTestMixin.groovy:209)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:148)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:145)
+

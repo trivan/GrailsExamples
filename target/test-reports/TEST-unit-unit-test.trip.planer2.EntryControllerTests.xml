@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="8" failures="0" hostname="TRIVAN" name="test.trip.planer2.EntryControllerTests" tests="8" time="0.977" timestamp="2013-05-27T05:00:58">
+  <properties />
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testUpdate" time="0.367">
+    <error message="No signature of method: test.trip.planer2.EntryController.update() is applicable for argument types: () values: []&#xa;Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), use([Ljava.lang.Object;), isCase(java.lang.Object), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.update() is applicable for argument types: () values: []
+Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), use([Ljava.lang.Object;), isCase(java.lang.Object), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testUpdate(EntryControllerTests.groovy:90)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testShow" time="0.097">
+    <error message="No signature of method: test.trip.planer2.EntryController.show() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), list(), dump(), find(), any(), grep()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.show() is applicable for argument types: () values: []
+Possible solutions: wait(), list(), dump(), find(), any(), grep()
+	at test.trip.planer2.EntryControllerTests.testShow(EntryControllerTests.groovy:54)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testDelete" time="0.074">
+    <error message="No signature of method: test.trip.planer2.EntryController.delete() is applicable for argument types: () values: []&#xa;Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testDelete(EntryControllerTests.groovy:135)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testEdit" time="0.077">
+    <error message="No signature of method: test.trip.planer2.EntryController.edit() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), wait(long), wait(long, int), list(), list(java.lang.Integer), print(java.io.PrintWriter)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), list(), list(java.lang.Integer), print(java.io.PrintWriter)
+	at test.trip.planer2.EntryControllerTests.testEdit(EntryControllerTests.groovy:72)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testList" time="0.104">
+    <error message="No signature of method: test.trip.planer2.User.methodMissing() is applicable for argument types: () values: []" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.User.methodMissing() is applicable for argument types: () values: []
+	at test.trip.planer2.EntryController.list(EntryController.groovy:27)
+	at test.trip.planer2.EntryControllerTests.testList(EntryControllerTests.groovy:25)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testCreate" time="0.059">
+    <error message="No signature of method: test.trip.planer2.EntryController.create() is applicable for argument types: () values: []&#xa;Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.create() is applicable for argument types: () values: []
+Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)
+	at test.trip.planer2.EntryControllerTests.testCreate(EntryControllerTests.groovy:32)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testIndex" time="0.056">
+    <error message="No signature of method: test.trip.planer2.EntryController.index() is applicable for argument types: () values: []&#xa;Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+	at test.trip.planer2.EntryControllerTests.testIndex(EntryControllerTests.groovy:19)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.EntryControllerTests" name="testSave" time="0.052">
+    <error message="No signature of method: test.trip.planer2.EntryController.save() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), each(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), each(groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testSave(EntryControllerTests.groovy:38)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+  <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+</testsuite>

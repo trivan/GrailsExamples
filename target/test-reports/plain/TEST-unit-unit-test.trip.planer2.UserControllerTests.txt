@@ -1,0 +1,116 @@
+Testsuite: test.trip.planer2.UserControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 0.705 sec
+------------- Standard Output ---------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+
+Testcase: testUpdate took 0.257 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@7f8e0288 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@7f8e0288 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+
+Testcase: testShow took 0.068 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@5c50d2c4 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@5c50d2c4 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testShow(UserControllerTests.groovy:62)
+
+Testcase: testDelete took 0.062 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@2f4f13b8 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@2f4f13b8 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+
+Testcase: testEdit took 0.053 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@74cda8f6 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@74cda8f6 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+
+Testcase: testList took 0.042 sec
+Testcase: testCreate took 0.042 sec
+Testcase: testIndex took 0.043 sec
+Testcase: testSave took 0.05 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdf31b3
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdf31b3
+
+	at test.trip.planer2.UserControllerTests.testSave(UserControllerTests.groovy:48)
+

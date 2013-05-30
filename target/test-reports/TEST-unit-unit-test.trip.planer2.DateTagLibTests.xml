@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="TRIVAN" name="test.trip.planer2.DateTagLibTests" tests="1" time="0.18" timestamp="2013-05-27T05:00:58">
+  <properties />
+  <testcase classname="test.trip.planer2.DateTagLibTests" name="testSomething" time="0.02">
+    <error message="Cannot add Domain class [class test.trip.planer2.UnderscoreCodec]. It is not a Domain!" type="org.codehaus.groovy.grails.exceptions.GrailsConfigurationException">org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class test.trip.planer2.UnderscoreCodec]. It is not a Domain!
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.registerGrailsDomainClass(DomainClassUnitTestMixin.groovy:209)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:148)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:145)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="5" hostname="TRIVAN" id="0" name="AirlineControllerTests" package="test.trip.planer2" tests="8" time="4.399" timestamp="2013-05-27T05:00:52">
+      <properties />
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testUpdate" time="2.923">
+          <failure message="Assertion failed: &#xa;&#xa;assert airline.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       null - null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testUpdate(AirlineControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testShow" time="0.145">
+          <failure message="Assertion failed: &#xa;&#xa;assert airline.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       null - null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testShow(AirlineControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testDelete" time="0.125">
+          <failure message="Assertion failed: &#xa;&#xa;assert airline.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       null - null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testDelete(AirlineControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testEdit" time="0.128">
+          <failure message="Assertion failed: &#xa;&#xa;assert airline.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       null - null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testEdit(AirlineControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testList" time="0.621" />
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testCreate" time="0.074" />
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testIndex" time="0.133" />
+
+      <testcase classname="test.trip.planer2.AirlineControllerTests" name="testSave" time="0.095">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/airline/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@fcf0783&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/airline/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@fcf0783
+
+	at test.trip.planer2.AirlineControllerTests.testSave(AirlineControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TRIVAN" id="1" name="AirlineTests" package="test.trip.planer2" tests="1" time="0.174" timestamp="2013-05-27T05:00:57">
+      <properties />
+
+      <testcase classname="test.trip.planer2.AirlineTests" name="testSomething" time="0.057" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="7" failures="1" hostname="TRIVAN" id="2" name="AirportControllerTests" package="test.trip.planer2" tests="8" time="1.139" timestamp="2013-05-27T05:00:57">
+      <properties />
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testUpdate" time="0.32">
+          <failure message="Assertion failed: &#xa;&#xa;assert airport.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       null - null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airport.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirportControllerTests.testUpdate(AirportControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testShow" time="0.143">
+          <error message="No signature of method: test.trip.planer2.AirportController.show() is applicable for argument types: () values: []&#xa;Possible solutions: save(), wait(), map(), dump(), find(), any()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.show() is applicable for argument types: () values: []
+Possible solutions: save(), wait(), map(), dump(), find(), any()
+	at test.trip.planer2.AirportControllerTests.testShow(AirportControllerTests.groovy:54)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testDelete" time="0.083">
+          <error message="No signature of method: test.trip.planer2.AirportController.delete() is applicable for argument types: () values: []&#xa;Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), update(), every(), split(groovy.lang.Closure), getAt(java.lang.String)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), update(), every(), split(groovy.lang.Closure), getAt(java.lang.String)
+	at test.trip.planer2.AirportControllerTests.testDelete(AirportControllerTests.groovy:135)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testEdit" time="0.085">
+          <error message="No signature of method: test.trip.planer2.AirportController.edit() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), wait(long), wait(long, int), print(java.io.PrintWriter), split(groovy.lang.Closure), getAt(java.lang.String)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), print(java.io.PrintWriter), split(groovy.lang.Closure), getAt(java.lang.String)
+	at test.trip.planer2.AirportControllerTests.testEdit(AirportControllerTests.groovy:72)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testList" time="0.103">
+          <error message="No signature of method: test.trip.planer2.AirportController.list() is applicable for argument types: () values: []&#xa;Possible solutions: is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter), split(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter), split(groovy.lang.Closure)
+	at test.trip.planer2.AirportControllerTests.testList(AirportControllerTests.groovy:25)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testCreate" time="0.089">
+          <error message="No signature of method: test.trip.planer2.AirportController.create() is applicable for argument types: () values: []&#xa;Possible solutions: update(), update(java.lang.Long, java.lang.Long), save(), grep(), chain(java.util.Map), render(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.create() is applicable for argument types: () values: []
+Possible solutions: update(), update(java.lang.Long, java.lang.Long), save(), grep(), chain(java.util.Map), render(groovy.lang.Closure)
+	at test.trip.planer2.AirportControllerTests.testCreate(AirportControllerTests.groovy:32)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testIndex" time="0.089">
+          <error message="No signature of method: test.trip.planer2.AirportController.index() is applicable for argument types: () values: []&#xa;Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+	at test.trip.planer2.AirportControllerTests.testIndex(AirportControllerTests.groovy:19)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.AirportControllerTests" name="testSave" time="0.09">
+          <error message="Cannot invoke method geocodeAirport() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method geocodeAirport() on null object
+	at test.trip.planer2.AirportController.save(AirportController.groovy:25)
+	at test.trip.planer2.AirportControllerTests.testSave(AirportControllerTests.groovy:38)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TRIVAN" id="3" name="AirportTests" package="test.trip.planer2" tests="1" time="0.162" timestamp="2013-05-27T05:00:58">
+      <properties />
+
+      <testcase classname="test.trip.planer2.AirportTests" name="testSomething" time="0.065" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="TRIVAN" id="4" name="DateTagLibTests" package="test.trip.planer2" tests="1" time="0.18" timestamp="2013-05-27T05:00:58">
+      <properties />
+
+      <testcase classname="test.trip.planer2.DateTagLibTests" name="testSomething" time="0.02">
+          <error message="Cannot add Domain class [class test.trip.planer2.UnderscoreCodec]. It is not a Domain!" type="org.codehaus.groovy.grails.exceptions.GrailsConfigurationException">org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class test.trip.planer2.UnderscoreCodec]. It is not a Domain!
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.registerGrailsDomainClass(DomainClassUnitTestMixin.groovy:209)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:148)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:145)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="8" failures="0" hostname="TRIVAN" id="5" name="EntryControllerTests" package="test.trip.planer2" tests="8" time="0.977" timestamp="2013-05-27T05:00:58">
+      <properties />
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testUpdate" time="0.367">
+          <error message="No signature of method: test.trip.planer2.EntryController.update() is applicable for argument types: () values: []&#xa;Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), use([Ljava.lang.Object;), isCase(java.lang.Object), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.update() is applicable for argument types: () values: []
+Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), use([Ljava.lang.Object;), isCase(java.lang.Object), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testUpdate(EntryControllerTests.groovy:90)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testShow" time="0.097">
+          <error message="No signature of method: test.trip.planer2.EntryController.show() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), list(), dump(), find(), any(), grep()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.show() is applicable for argument types: () values: []
+Possible solutions: wait(), list(), dump(), find(), any(), grep()
+	at test.trip.planer2.EntryControllerTests.testShow(EntryControllerTests.groovy:54)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testDelete" time="0.074">
+          <error message="No signature of method: test.trip.planer2.EntryController.delete() is applicable for argument types: () values: []&#xa;Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testDelete(EntryControllerTests.groovy:135)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testEdit" time="0.077">
+          <error message="No signature of method: test.trip.planer2.EntryController.edit() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), wait(long), wait(long, int), list(), list(java.lang.Integer), print(java.io.PrintWriter)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), list(), list(java.lang.Integer), print(java.io.PrintWriter)
+	at test.trip.planer2.EntryControllerTests.testEdit(EntryControllerTests.groovy:72)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testList" time="0.104">
+          <error message="No signature of method: test.trip.planer2.User.methodMissing() is applicable for argument types: () values: []" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.User.methodMissing() is applicable for argument types: () values: []
+	at test.trip.planer2.EntryController.list(EntryController.groovy:27)
+	at test.trip.planer2.EntryControllerTests.testList(EntryControllerTests.groovy:25)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testCreate" time="0.059">
+          <error message="No signature of method: test.trip.planer2.EntryController.create() is applicable for argument types: () values: []&#xa;Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.create() is applicable for argument types: () values: []
+Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)
+	at test.trip.planer2.EntryControllerTests.testCreate(EntryControllerTests.groovy:32)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testIndex" time="0.056">
+          <error message="No signature of method: test.trip.planer2.EntryController.index() is applicable for argument types: () values: []&#xa;Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+	at test.trip.planer2.EntryControllerTests.testIndex(EntryControllerTests.groovy:19)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.EntryControllerTests" name="testSave" time="0.052">
+          <error message="No signature of method: test.trip.planer2.EntryController.save() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), each(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), each(groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testSave(EntryControllerTests.groovy:38)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TRIVAN" id="6" name="EntryTests" package="test.trip.planer2" tests="1" time="0.157" timestamp="2013-05-27T05:00:59">
+      <properties />
+
+      <testcase classname="test.trip.planer2.EntryTests" name="testSomething" time="0.052" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="TRIVAN" id="7" name="FlightControllerTests" package="test.trip.planer2" tests="8" time="1.268" timestamp="2013-05-27T05:00:59">
+      <properties />
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testUpdate" time="0.343">
+          <failure message="Assertion failed: &#xa;&#xa;assert flight.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       test.trip.planer2.Flight : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testUpdate(FlightControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testShow" time="0.064">
+          <failure message="Assertion failed: &#xa;&#xa;assert flight.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       test.trip.planer2.Flight : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testShow(FlightControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testDelete" time="0.076">
+          <failure message="Assertion failed: &#xa;&#xa;assert flight.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       test.trip.planer2.Flight : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testDelete(FlightControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testEdit" time="0.067">
+          <failure message="Assertion failed: &#xa;&#xa;assert flight.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       test.trip.planer2.Flight : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert flight.save() != null
+       |      |      |
+       |      null   false
+       test.trip.planer2.Flight : (unsaved)
+
+	at test.trip.planer2.FlightControllerTests.testEdit(FlightControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testList" time="0.06" />
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testCreate" time="0.049" />
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testIndex" time="0.046" />
+
+      <testcase classname="test.trip.planer2.FlightControllerTests" name="testSave" time="0.054">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/flight/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@20c22f4d&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/flight/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@20c22f4d
+
+	at test.trip.planer2.FlightControllerTests.testSave(FlightControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TRIVAN" id="8" name="FlightTests" package="test.trip.planer2" tests="1" time="0.122" timestamp="2013-05-27T05:01:01">
+      <properties />
+
+      <testcase classname="test.trip.planer2.FlightTests" name="testSomething" time="0.052" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TRIVAN" id="9" name="GeocoderServiceTests" package="test.trip.planer2" tests="1" time="0.137" timestamp="2013-05-27T05:01:01">
+      <properties />
+
+      <testcase classname="test.trip.planer2.GeocoderServiceTests" name="testSomething" time="0.031" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="TRIVAN" id="10" name="TripControllerTests" package="test.trip.planer2" tests="8" time="0.731" timestamp="2013-05-27T05:01:01">
+      <properties />
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testUpdate" time="0.258">
+          <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@795120c9 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@795120c9 (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testUpdate(TripControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testShow" time="0.048">
+          <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@7f432759 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@7f432759 (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testShow(TripControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testDelete" time="0.052">
+          <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@20a302f2 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@20a302f2 (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testDelete(TripControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testEdit" time="0.051">
+          <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@6ebe375f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@6ebe375f (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testEdit(TripControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testList" time="0.044" />
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testCreate" time="0.047" />
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testIndex" time="0.051" />
+
+      <testcase classname="test.trip.planer2.TripControllerTests" name="testSave" time="0.06">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/trip/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40ab95d&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/trip/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40ab95d
+
+	at test.trip.planer2.TripControllerTests.testSave(TripControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TRIVAN" id="11" name="TripTests" package="test.trip.planer2" tests="1" time="0.165" timestamp="2013-05-27T05:01:02">
+      <properties />
+
+      <testcase classname="test.trip.planer2.TripTests" name="testSomething" time="0.053" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="TRIVAN" id="12" name="UserControllerTests" package="test.trip.planer2" tests="8" time="0.705" timestamp="2013-05-27T05:01:02">
+      <properties />
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testUpdate" time="0.257">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.User@7f8e0288 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@7f8e0288 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testShow" time="0.068">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.User@5c50d2c4 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@5c50d2c4 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testShow(UserControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testDelete" time="0.062">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.User@2f4f13b8 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@2f4f13b8 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testEdit" time="0.053">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.User@74cda8f6 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.User@74cda8f6 (toString() == null)
+
+	at test.trip.planer2.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testList" time="0.042" />
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testCreate" time="0.042" />
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testIndex" time="0.043" />
+
+      <testcase classname="test.trip.planer2.UserControllerTests" name="testSave" time="0.05">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/user/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdf31b3&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/user/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdf31b3
+
+	at test.trip.planer2.UserControllerTests.testSave(UserControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TRIVAN" id="13" name="UserTests" package="test.trip.planer2" tests="1" time="0.065" timestamp="2013-05-27T05:01:03">
+      <properties />
+
+      <testcase classname="test.trip.planer2.UserTests" name="testSomething" time="0.063" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

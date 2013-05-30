@@ -1,0 +1,116 @@
+Testsuite: test.trip.planer2.AirlineControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 4.399 sec
+------------- Standard Output ---------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+
+Testcase: testUpdate took 2.92 sec
+	FAILED
+Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testUpdate(AirlineControllerTests.groovy:100)
+
+Testcase: testShow took 0.145 sec
+	FAILED
+Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testShow(AirlineControllerTests.groovy:62)
+
+Testcase: testDelete took 0.125 sec
+	FAILED
+Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testDelete(AirlineControllerTests.groovy:144)
+
+Testcase: testEdit took 0.128 sec
+	FAILED
+Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airline.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirlineControllerTests.testEdit(AirlineControllerTests.groovy:80)
+
+Testcase: testList took 0.621 sec
+Testcase: testCreate took 0.074 sec
+Testcase: testIndex took 0.133 sec
+Testcase: testSave took 0.094 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/airline/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@fcf0783
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/airline/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@fcf0783
+
+	at test.trip.planer2.AirlineControllerTests.testSave(AirlineControllerTests.groovy:48)
+

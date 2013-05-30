@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="TRIVAN" name="test.trip.planer2.TripControllerTests" tests="8" time="0.731" timestamp="2013-05-27T05:01:01">
+  <properties />
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testUpdate" time="0.258">
+    <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@795120c9 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@795120c9 (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testUpdate(TripControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testShow" time="0.048">
+    <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@7f432759 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@7f432759 (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testShow(TripControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testDelete" time="0.052">
+    <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@20a302f2 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@20a302f2 (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testDelete(TripControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testEdit" time="0.051">
+    <failure message="Assertion failed: &#xa;&#xa;assert trip.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       test.trip.planer2.Trip@6ebe375f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert trip.save() != null
+       |    |      |
+       |    null   false
+       test.trip.planer2.Trip@6ebe375f (toString() == null)
+
+	at test.trip.planer2.TripControllerTests.testEdit(TripControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testList" time="0.044" />
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testCreate" time="0.047" />
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testIndex" time="0.051" />
+  <testcase classname="test.trip.planer2.TripControllerTests" name="testSave" time="0.06">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/trip/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40ab95d&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/trip/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40ab95d
+
+	at test.trip.planer2.TripControllerTests.testSave(TripControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+  <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+</testsuite>

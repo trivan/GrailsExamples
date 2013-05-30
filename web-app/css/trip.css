@@ -1,0 +1,61 @@
+/* Blogito customizations */
+.entry {
+  padding-bottom: 2em;
+  padding-left: 20px;
+}
+
+.entry-date {
+  color: #999;
+}
+#list-entry{
+    padding-top: 20px;
+}
+
+#header {
+  background: #67c;
+  padding: 2em 1em 2em 1em;
+  margin-bottom: 1em;
+}
+
+a.header-main:link, a.header-main:visited {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-sub {
+  color: #fff;
+  font-size: 1.25em;
+  font-style: italic;
+}
+
+#loginHeader {
+  float: right;
+  color: #fff;
+}
+#loginHeader a{
+	color: blue;
+}
+.nav-header{
+	color: blue;
+	padding-bottom: 10px;
+}
+.nav-header ul {
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.nav-header li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+    padding: 0;
+}
+.nav-header li a{
+	color:white;
+	font-size: 22px;
+}
+
+

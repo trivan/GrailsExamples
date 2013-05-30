@@ -1,0 +1,86 @@
+Testsuite: test.trip.planer2.EntryControllerTests
+Tests run: 8, Failures: 0, Errors: 8, Time elapsed: 0.977 sec
+------------- Standard Output ---------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+
+Testcase: testUpdate took 0.366 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.EntryController.update() is applicable for argument types: () values: []
+Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), use([Ljava.lang.Object;), isCase(java.lang.Object), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.update() is applicable for argument types: () values: []
+Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), use([Ljava.lang.Object;), isCase(java.lang.Object), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testUpdate(EntryControllerTests.groovy:90)
+
+Testcase: testShow took 0.097 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.EntryController.show() is applicable for argument types: () values: []
+Possible solutions: wait(), list(), dump(), find(), any(), grep()
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.show() is applicable for argument types: () values: []
+Possible solutions: wait(), list(), dump(), find(), any(), grep()
+	at test.trip.planer2.EntryControllerTests.testShow(EntryControllerTests.groovy:54)
+
+Testcase: testDelete took 0.074 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.EntryController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testDelete(EntryControllerTests.groovy:135)
+
+Testcase: testEdit took 0.076 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.EntryController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), list(), list(java.lang.Integer), print(java.io.PrintWriter)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), list(), list(java.lang.Integer), print(java.io.PrintWriter)
+	at test.trip.planer2.EntryControllerTests.testEdit(EntryControllerTests.groovy:72)
+
+Testcase: testList took 0.103 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.User.methodMissing() is applicable for argument types: () values: []
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.User.methodMissing() is applicable for argument types: () values: []
+	at test.trip.planer2.EntryController.list(EntryController.groovy:27)
+	at test.trip.planer2.EntryControllerTests.testList(EntryControllerTests.groovy:25)
+
+Testcase: testCreate took 0.058 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.EntryController.create() is applicable for argument types: () values: []
+Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.create() is applicable for argument types: () values: []
+Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)
+	at test.trip.planer2.EntryControllerTests.testCreate(EntryControllerTests.groovy:32)
+
+Testcase: testIndex took 0.055 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.EntryController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+	at test.trip.planer2.EntryControllerTests.testIndex(EntryControllerTests.groovy:19)
+
+Testcase: testSave took 0.052 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.EntryController.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), each(groovy.lang.Closure)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.EntryController.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), each(groovy.lang.Closure)
+	at test.trip.planer2.EntryControllerTests.testSave(EntryControllerTests.groovy:38)
+

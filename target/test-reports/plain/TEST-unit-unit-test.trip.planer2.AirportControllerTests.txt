@@ -1,0 +1,96 @@
+Testsuite: test.trip.planer2.AirportControllerTests
+Tests run: 8, Failures: 1, Errors: 7, Time elapsed: 1.139 sec
+------------- Standard Output ---------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+------------- ---------------- ---------------
+
+Testcase: testUpdate took 0.32 sec
+	FAILED
+Assertion failed: 
+
+assert airport.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airport.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirportControllerTests.testUpdate(AirportControllerTests.groovy:100)
+
+Testcase: testShow took 0.141 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.AirportController.show() is applicable for argument types: () values: []
+Possible solutions: save(), wait(), map(), dump(), find(), any()
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.show() is applicable for argument types: () values: []
+Possible solutions: save(), wait(), map(), dump(), find(), any()
+	at test.trip.planer2.AirportControllerTests.testShow(AirportControllerTests.groovy:54)
+
+Testcase: testDelete took 0.081 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.AirportController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), update(), every(), split(groovy.lang.Closure), getAt(java.lang.String)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), update(), every(), split(groovy.lang.Closure), getAt(java.lang.String)
+	at test.trip.planer2.AirportControllerTests.testDelete(AirportControllerTests.groovy:135)
+
+Testcase: testEdit took 0.084 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.AirportController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), print(java.io.PrintWriter), split(groovy.lang.Closure), getAt(java.lang.String)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), print(java.io.PrintWriter), split(groovy.lang.Closure), getAt(java.lang.String)
+	at test.trip.planer2.AirportControllerTests.testEdit(AirportControllerTests.groovy:72)
+
+Testcase: testList took 0.101 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.AirportController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter), split(groovy.lang.Closure)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter), split(groovy.lang.Closure)
+	at test.trip.planer2.AirportControllerTests.testList(AirportControllerTests.groovy:25)
+
+Testcase: testCreate took 0.088 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.AirportController.create() is applicable for argument types: () values: []
+Possible solutions: update(), update(java.lang.Long, java.lang.Long), save(), grep(), chain(java.util.Map), render(groovy.lang.Closure)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.create() is applicable for argument types: () values: []
+Possible solutions: update(), update(java.lang.Long, java.lang.Long), save(), grep(), chain(java.util.Map), render(groovy.lang.Closure)
+	at test.trip.planer2.AirportControllerTests.testCreate(AirportControllerTests.groovy:32)
+
+Testcase: testIndex took 0.088 sec
+	Caused an ERROR
+No signature of method: test.trip.planer2.AirportController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+	at test.trip.planer2.AirportControllerTests.testIndex(AirportControllerTests.groovy:19)
+
+Testcase: testSave took 0.09 sec
+	Caused an ERROR
+Cannot invoke method geocodeAirport() on null object
+java.lang.NullPointerException: Cannot invoke method geocodeAirport() on null object
+	at test.trip.planer2.AirportController.save(AirportController.groovy:25)
+	at test.trip.planer2.AirportControllerTests.testSave(AirportControllerTests.groovy:38)
+

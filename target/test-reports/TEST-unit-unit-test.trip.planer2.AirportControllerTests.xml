@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="7" failures="1" hostname="TRIVAN" name="test.trip.planer2.AirportControllerTests" tests="8" time="1.139" timestamp="2013-05-27T05:00:57">
+  <properties />
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testUpdate" time="0.32">
+    <failure message="Assertion failed: &#xa;&#xa;assert airport.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       null - null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert airport.save() != null
+       |       |      |
+       |       null   false
+       null - null
+
+	at test.trip.planer2.AirportControllerTests.testUpdate(AirportControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testShow" time="0.143">
+    <error message="No signature of method: test.trip.planer2.AirportController.show() is applicable for argument types: () values: []&#xa;Possible solutions: save(), wait(), map(), dump(), find(), any()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.show() is applicable for argument types: () values: []
+Possible solutions: save(), wait(), map(), dump(), find(), any()
+	at test.trip.planer2.AirportControllerTests.testShow(AirportControllerTests.groovy:54)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testDelete" time="0.083">
+    <error message="No signature of method: test.trip.planer2.AirportController.delete() is applicable for argument types: () values: []&#xa;Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), update(), every(), split(groovy.lang.Closure), getAt(java.lang.String)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), update(), every(), split(groovy.lang.Closure), getAt(java.lang.String)
+	at test.trip.planer2.AirportControllerTests.testDelete(AirportControllerTests.groovy:135)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testEdit" time="0.085">
+    <error message="No signature of method: test.trip.planer2.AirportController.edit() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), wait(long), wait(long, int), print(java.io.PrintWriter), split(groovy.lang.Closure), getAt(java.lang.String)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), print(java.io.PrintWriter), split(groovy.lang.Closure), getAt(java.lang.String)
+	at test.trip.planer2.AirportControllerTests.testEdit(AirportControllerTests.groovy:72)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testList" time="0.103">
+    <error message="No signature of method: test.trip.planer2.AirportController.list() is applicable for argument types: () values: []&#xa;Possible solutions: is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter), split(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter), split(groovy.lang.Closure)
+	at test.trip.planer2.AirportControllerTests.testList(AirportControllerTests.groovy:25)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testCreate" time="0.089">
+    <error message="No signature of method: test.trip.planer2.AirportController.create() is applicable for argument types: () values: []&#xa;Possible solutions: update(), update(java.lang.Long, java.lang.Long), save(), grep(), chain(java.util.Map), render(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.create() is applicable for argument types: () values: []
+Possible solutions: update(), update(java.lang.Long, java.lang.Long), save(), grep(), chain(java.util.Map), render(groovy.lang.Closure)
+	at test.trip.planer2.AirportControllerTests.testCreate(AirportControllerTests.groovy:32)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testIndex" time="0.089">
+    <error message="No signature of method: test.trip.planer2.AirportController.index() is applicable for argument types: () values: []&#xa;Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: test.trip.planer2.AirportController.index() is applicable for argument types: () values: []
+Possible solutions: find(), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map), render(org.codehaus.groovy.grails.web.converters.Converter)
+	at test.trip.planer2.AirportControllerTests.testIndex(AirportControllerTests.groovy:19)
+</error>
+  </testcase>
+  <testcase classname="test.trip.planer2.AirportControllerTests" name="testSave" time="0.09">
+    <error message="Cannot invoke method geocodeAirport() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method geocodeAirport() on null object
+	at test.trip.planer2.AirportController.save(AirportController.groovy:25)
+	at test.trip.planer2.AirportControllerTests.testSave(AirportControllerTests.groovy:38)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-out>
+  <system-err><![CDATA[--Output from testUpdate--
+--Output from testShow--
+--Output from testDelete--
+--Output from testEdit--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
+--Output from testSave--
+]]></system-err>
+</testsuite>
